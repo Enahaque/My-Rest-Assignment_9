@@ -3,7 +3,7 @@
 * yarn create react-app
 * DOM install
 * Folder creating
-** File create in pair like js and css
+* File create in pair like js and css
 * After complete some code then push into github;
 
 
