@@ -1,0 +1,19 @@
+.nav-section {
+    background-color: burlywood;
+    text-align: right;
+    margin-left: 15px;
+    margin-right: 15px;
+    
+}
+.nav-section a{
+    text-decoration: none;
+    margin: 0px 15px;
+    /* color: white; */
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    /* text-decoration-color: purple; */
+}
+
+.nav-section a:hover{
+    color:coral;
+}
