@@ -1,9 +1,11 @@
 <!-- # Getting Started with Create React App -->
-# A brief description about Assignment;
+## A brief description about Assignment;
 * yarn create react-app
 * DOM install
-* Folder creating like js and css
+* Folder creating
+** File create in pair like js and css
 * After complete some code then push into github;
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
