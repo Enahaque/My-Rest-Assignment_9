@@ -1,5 +1,5 @@
 import React from 'react';
-import { LineChart, Line,XAxis,YAxis,Tooltip } from 'recharts';
+import { LineChart, Line,XAxis,YAxis,Tooltip,CartesianGrid } from 'recharts';
 
 const Dashboard = () => {
     // const data = [
@@ -48,14 +48,26 @@ const Dashboard = () => {
 
     return (
         <div>
-            <h4>recharts:{data.length}</h4>
-            <LineChart width={800} height={600} data={data}>
+            <h4>recharts:ONE</h4>
+            <LineChart width={1000} height={500} data={data}>
                 <Line type="monotone" dataKey="sell" stroke="#8884d8" />
                 <Line type="monotone" dataKey="revenue" stroke="#8884d8" />
+                <CartesianGrid stroke="#ccc" strokeDasharray="5 5" />
                 <XAxis dataKey="month"></XAxis>
                 <YAxis dataKey="investment" ></YAxis>
                 <Tooltip />
             </LineChart>
+            <br /><br />
+            <h2>Recharts TWO</h2>
+            <LineChart width={1000} height={500} data={data}>
+                <Line type="monotone" dataKey="sell" stroke="#8884d8" />
+                <Line type="monotone" dataKey="revenue" stroke="#8884d8" />
+                <CartesianGrid stroke="#ccc" strokeDasharray="5 5" />
+                <XAxis dataKey="month"></XAxis>
+                <YAxis dataKey="investment" ></YAxis>
+                <Tooltip />
+            </LineChart>
+
         </div>
     );
 };
