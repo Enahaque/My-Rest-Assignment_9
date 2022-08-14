@@ -1,4 +1,6 @@
-# Getting Started with Create React App
+<!-- # Getting Started with Create React App -->
+# My Activities;
+# Folder structure;
 # You can do, I believe on you.
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

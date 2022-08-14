@@ -48,7 +48,7 @@ const Dashboard = () => {
 
     return (
         <div>
-            <h4>recharts:ONE</h4>
+            <h4>RECHARTS ONE</h4>
             <LineChart width={1000} height={500} data={data}>
                 <Line type="monotone" dataKey="sell" stroke="#8884d8" />
                 <Line type="monotone" dataKey="revenue" stroke="#8884d8" />
@@ -58,7 +58,7 @@ const Dashboard = () => {
                 <Tooltip />
             </LineChart>
             <br /><br />
-            <h2>Recharts TWO</h2>
+            <h2>RECHARTS TWO</h2>
             <LineChart width={1000} height={500} data={data}>
                 <Line type="monotone" dataKey="sell" stroke="#8884d8" />
                 <Line type="monotone" dataKey="revenue" stroke="#8884d8" />
