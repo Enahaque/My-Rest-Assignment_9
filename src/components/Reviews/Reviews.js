@@ -1,9 +1,27 @@
 import React from 'react';
+import ReviewDetail from '../ReviewDetail/ReviewDetail';
+// import Home from '../Home/Home';
+import './Reviews.css';
 
 const Reviews = () => {
+    const data = [
+        { id: 1,img:"https://i.ibb.co/yWJ5gSt/baby.jpg", name: 'enamul', comment: 'awesome', ratings: '5*' },
+        { id: 2,img:"https://i.ibb.co/yWJ5gSt/baby.jpg", name: 'sadek', comment: 'nice', ratings: '4*' },
+        { id: 3,img:"https://i.ibb.co/yWJ5gSt/baby.jpg", name: 'sazid', comment: 'good', ratings: '3*' },
+    ]
     return (
         <div>
-            <h2>Reviews</h2>
+            <h2>Reviews :{data.length}</h2>
+            <div className='review'>
+                {
+                    data.map(data =><ReviewDetail
+                        
+                       key={data.id}
+                       data={data}
+                    
+                    ></ReviewDetail>)
+                }
+            </div>
         </div>
     );
 };
