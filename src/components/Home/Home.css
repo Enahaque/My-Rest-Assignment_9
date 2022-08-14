@@ -1,0 +1,24 @@
+.container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    border: 1px solid salmon;
+    margin: 0px 15px;
+}
+
+.text-container p{
+    text-align: justify;
+}
+
+.text-container .btn{
+    background-color: lightsalmon;
+    border: 1px solid lightyellow;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 15px 0px;
+    color:whitesmoke;
+}
+
+.image-container img{
+    border-radius: 10px;
+}
