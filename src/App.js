@@ -12,7 +12,6 @@ function App() {
   return (
     <div className="App">
       <Header></Header>
-      {/* <h1>You can do, I believe on you</h1> */}
       <Routes>
         <Route path="/" element={<Home></Home>}></Route>
         <Route path="reviews" element={<Reviews></Reviews>}></Route>
@@ -26,3 +25,4 @@ function App() {
 }
 
 export default App;
+      
