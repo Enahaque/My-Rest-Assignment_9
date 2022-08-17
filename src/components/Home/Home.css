@@ -2,15 +2,11 @@
     display: grid;
     grid-template-columns: repeat(2,1fr);
     align-items: center;
-    /* border: 1px solid salmon; */
     border-radius: 5px;
     margin: 0px 15px;
     background-color:honeydew;
 }
-
-.text-container h1{
-    /* font-family: 'Courier New', Courier, monospace; */
-}
+    
 .text-container p{
     text-align: justify;
 }
@@ -36,3 +32,4 @@
     margin: 15px 0px;
     color:whitesmoke;
 }
+

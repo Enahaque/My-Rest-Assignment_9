@@ -1,9 +1,11 @@
+import { useNavigate } from 'react-router';
+
 import React from 'react';
 import './Home.css';
 
 
 const Home = () => {
-    
+    const navigate = useNavigate(); 
     return (
         <div>
 
@@ -11,7 +13,10 @@ const Home = () => {
                 <div className='text-container'>
                     <h1>Your Next Laptop</h1>
                     <h1>Your First Choose</h1>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore ratione pariatur consequuntur non. Hic doloremque distinctio ex deleniti, voluptatum officia quae veniam ea expedita fugiat pariatur perferendis, eum consequatur similique.</p>
+                    <p>
+                    HP 14 Inch Laptop PC 14s-fq0014na, AMD Athlon 3020e, 4GB RAM, 128GB SSD, FHD, Radeon Graphics, Free Upgrade to Windows 11, Microsoft 365 Personal 12 Months Included – Black
+                    </p>
+                    <h5>Price : $599</h5>
                     <button className='btn'>First Choose</button>
                 </div>
 
@@ -24,7 +29,7 @@ const Home = () => {
 
             <div className='customer-review'>
                 
-                <button className='review-btn'>Customer Reviews</button>
+                <button onClick={()=>navigate('/reviews')} className='review-btn'>Customer Reviews</button>
 
             </div>
 
