@@ -1,7 +1,7 @@
 <!-- # Getting Started with Create React App -->
 # Project  Outline
 ## Your Next PC (Project Name)
-* Project live link : 
+* Project live link : https://charming-manatee-6889ea.netlify.app/
 * Project create by this command (yarn create react-app)
 * DOM install
 * Folder creating

@@ -17,7 +17,7 @@ const Home = () => {
                     HP 14 Inch Laptop PC 14s-fq0014na, AMD Athlon 3020e, 4GB RAM, 128GB SSD, FHD, Radeon Graphics, Free Upgrade to Windows 11, Microsoft 365 Personal 12 Months Included – Black
                     </p>
                     <h5>Price : $599</h5>
-                    <button onClick={()=>navigate('/about')} className='btn'>First Choose</button>
+                    <button onClick={()=>navigate('/reviews')} className='btn'>First Choose</button>
                 </div>
 
                 <div className='image-container'>
