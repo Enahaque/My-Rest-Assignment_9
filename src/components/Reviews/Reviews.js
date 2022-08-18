@@ -4,19 +4,20 @@ import './Reviews.css';
 
 const Reviews = () => {
     const data = [
-        { id: 1,img:"https://i.ibb.co/yWJ5gSt/baby.jpg", name: 'enamul', comment: 'awesome', ratings: '5*' },
-        { id: 2,img:"https://i.ibb.co/yWJ5gSt/baby.jpg", name: 'sadek', comment: 'nice', ratings: '4*' },
-        { id: 3,img:"https://i.ibb.co/yWJ5gSt/baby.jpg", name: 'sazid', comment: 'good', ratings: '3*' },
-        { id: 4,img:"https://i.ibb.co/yWJ5gSt/baby.jpg", name: 'shofiq', comment: 'good', ratings: '4*' },
-        { id: 5,img:"https://i.ibb.co/yWJ5gSt/baby.jpg", name: 'saila', comment: 'good', ratings: '3*' },
-        { id: 6,img:"https://i.ibb.co/yWJ5gSt/baby.jpg", name: 'nitu', comment: 'good', ratings: '5*' },
+        { id: 1,img:"https://i.ibb.co/wBr8mSq/6-1.jpg", name: 'Etu', comment: 'awesome', ratings: '5*' },
+        { id: 2,img:"https://i.ibb.co/v41fSdx/1-1.jpg", name: 'Titu', comment: 'nice', ratings: '4*' },
+        { id: 3,img:"https://i.ibb.co/D8y78XF/2-1.jpg", name: 'Setu', comment: 'well', ratings: '3*' },
+        { id: 4,img:"https://i.ibb.co/1Lp7DKq/3-1.jpg", name: 'Mitu', comment: 'good', ratings: '4*' },
+        { id: 5,img:"https://i.ibb.co/W6WfrVN/4-1.jpg", name: 'Saila', comment: 'good', ratings: '3*' },
+        { id: 6,img:"https://i.ibb.co/4PLdRyt/5-1.jpg", name: 'Nitu', comment: 'supper', ratings: '5*' },
+        // { id: 6,img:"https://i.ibb.co/4PLdRyt/5-1.jpg", name: 'Nitu', comment: 'supper', ratings: '5*' },
     ]
     return (
         <div>
-            <h2>Reviews :{data.length}</h2>
+           
             <div className='review'>
                 {
-                    data.slice(0,3).map(data =><ReviewDetail
+                    data.map(data =><ReviewDetail
                         key={data.id}
                         data={data}
                         ></ReviewDetail>)

@@ -11,13 +11,13 @@ const Home = () => {
 
             <div className='container'>
                 <div className='text-container'>
-                    <h2>Your Next Laptop</h2>
-                    <h2>Your First Choose</h2>
+                    <h2>Your Next PC</h2>
+                    <h2 style={{color:'blueviolet'}}>Your First Choose</h2>
                     <p>
                     HP 14 Inch Laptop PC 14s-fq0014na, AMD Athlon 3020e, 4GB RAM, 128GB SSD, FHD, Radeon Graphics, Free Upgrade to Windows 11, Microsoft 365 Personal 12 Months Included – Black
                     </p>
                     <h5>Price : $599</h5>
-                    <button className='btn'>First Choose</button>
+                    <button onClick={()=>navigate('/about')} className='btn'>First Choose</button>
                 </div>
 
                 <div className='image-container'>
@@ -28,8 +28,9 @@ const Home = () => {
             <br />
 
             <div className='customer-review'>
+                <h2 style={{color:'blueviolet'}}>Customer Reviews</h2>
                 
-                <button onClick={()=>navigate('/reviews')} className='review-btn'>Customer Reviews</button>
+                <button onClick={()=>navigate('/reviews')} className='review-btn'>See All Reviews</button>
 
             </div>
 

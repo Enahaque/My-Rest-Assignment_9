@@ -1,10 +1,13 @@
 <!-- # Getting Started with Create React App -->
-## A brief description about Assignment;
-* yarn create react-app
+# Project  Outline
+## Your Next PC (Project Name)
+* Project live link : 
+* Project create by this command (yarn create react-app)
 * DOM install
 * Folder creating
-* File create in pair like js and css
-* After complete some code then push into github;
+* File create in pair like Home.js and Home.css
+* After complete some code then push into github gradually;
+* Finally submit for your judgement
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
