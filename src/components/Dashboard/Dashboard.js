@@ -58,20 +58,20 @@ const Dashboard = () => {
 
     return (
         <div className='main-div'>
-            <h3>RECHARTS ONE</h3>
+            <h3 style={{color:'blueviolet'}}>Investment vs Revenue</h3>
             <div className='line-chart'>
                 <LineChart width={1000} height={500} data={data}>
-                    <Line type="monotone" dataKey="sell" stroke="#8884d8" />
+                    <Line type="monotone" dataKey="investment" stroke="#8884d8" />
                     <Line type="monotone" dataKey="revenue" stroke="#8884d8" />
                     <CartesianGrid stroke="#ccc" strokeDasharray="5 5" />
                     <XAxis dataKey="month"></XAxis>
-                    <YAxis dataKey="investment" ></YAxis>
+                    <YAxis></YAxis>
                     <Tooltip />
                 </LineChart>
             </div>
             <br />
             <br />
-            <h3>RECHARTS TWO</h3>
+            <h3 style={{color:'blueviolet'}}>Investment vs Revenue</h3>
             <div className='bar-chart'>
                 <BarChart width={1000} height={350} data={data}>
                     <CartesianGrid strokeDasharray="3 3" />
@@ -79,7 +79,7 @@ const Dashboard = () => {
                     <YAxis/>
                     <Tooltip />
                     <Legend />
-                    <Bar dataKey="sell" fill="#8884d8" />
+                    <Bar dataKey="investment" fill="#8884d8" />
                     <Bar dataKey="revenue" fill="#82ca9d" />
                 </BarChart>
             </div>
